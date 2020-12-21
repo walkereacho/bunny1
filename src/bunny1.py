@@ -33,7 +33,7 @@ GOOGLE_LUCKY_SEARCH_URL = "http://www.google.com/search?btnI&q="
 
 DEFAULT_FALLBACK_URL = GOOGLE_SEARCH_URL
 DEFAULT_COMMAND = "help"
-DEFAULT_PORT = 9084
+DEFAULT_PORT = 80
 
 BUNNY1_HOME_URL = "http://www.bunny1.org/"
 
