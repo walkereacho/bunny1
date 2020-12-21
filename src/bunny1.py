@@ -28,11 +28,10 @@ __author__ = "ccheever" # Charlie Cheever <ccheever@gmail.com>
 __date__ = "Mon Oct 22 02:27:47 PDT 2007"
 
 # these are three good choices for default fallbacks
-YUBNUB_URL = "http://yubnub.org/parser/parse?command="
 GOOGLE_SEARCH_URL = "http://www.google.com/search?q="
 GOOGLE_LUCKY_SEARCH_URL = "http://www.google.com/search?btnI&q="
 
-DEFAULT_FALLBACK_URL = YUBNUB_URL
+DEFAULT_FALLBACK_URL = GOOGLE_SEARCH_URL
 DEFAULT_COMMAND = "help"
 DEFAULT_PORT = 9084
 
@@ -314,7 +313,7 @@ class Bunny1Commands(object):
 
     def __init__(self):
         self.history = []
-        self.fallback_url = YUBNUB_URL
+        self.fallback_url = DEFAULT_FALLBACK_URL
         self.popularity = {}
 
     @dont_expose
