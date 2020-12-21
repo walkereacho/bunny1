@@ -1,1 +1,1 @@
-worker: python src/b1_example.py
+worker: python ./src/b1_example.py
